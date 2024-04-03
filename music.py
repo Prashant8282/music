@@ -3,9 +3,9 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials 
 
 # Replace with your actual credentials
-SPOTIFY_CLIENT_ID = 'YOUR_SPOTIFY_CLIENT_ID'
-SPOTIFY_CLIENT_SECRET = 'YOUR_SPOTIFY_CLIENT_SECRET'
-TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+SPOTIFY_CLIENT_ID = 'bcfe26b0ebc3428882a0b5fb3e872473'
+SPOTIFY_CLIENT_SECRET = '907c6a054c214005aeae1fd752273cc4'
+TELEGRAM_BOT_TOKEN = '6459647682:AAGX4P4aozvOj9zBwzYNO3_-DDBeT_ejeIY'
 
 # Authentication with Spotify
 auth_manager = SpotifyClientCredentials(client_id=SPOTIFY_CLIENT_ID, client_secret=SPOTIFY_CLIENT_SECRET)
