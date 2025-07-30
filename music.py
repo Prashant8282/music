@@ -18,7 +18,7 @@ def handle_message(update, context):
     user_text = update.message.text
 
     if user_text.startswith('/search'):
-        query = user_text[8:]  # Extract the search term
+        query = user_text[8:]  
         results = sp.search(q=query, type='track')
 
         # Present search results to the user (you'll need to format this nicely)
